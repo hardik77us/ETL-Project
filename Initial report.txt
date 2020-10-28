@@ -1,0 +1,23 @@
+ETL Project: US Vehicle Access
+
+Names: Hardik Vadel, Janette Chairez, Charles Robinson, Shimsy Varkey
+
+Roles: Hardik Vadel – Data collector
+	Shimsy Varkey – Data Transformer
+	Charles Robinson – Relational Manager
+	Janette Chairez – Flask API Creator
+ 
+GitHub link: https://github.com/hardik77us/ETL-Project
+ 
+Datasets we intend to use: Census CSV file, Zipcode CSV, googlemaps API (for car 
+dealerships)
+ 
+Useful investigation to be done with final DB: 
+We are looking to find out if there is a relationship between the economic situation per 
+household to vehicle ownership based on the number of dealerships in the area. 
+
+Is the final DB relational/non-relational: Relational (SQL)
+We chose to use SQL as our database because we are mainly using structured data with a 
+consistent schema. We would not be having any scalability issues now. 
+
+
