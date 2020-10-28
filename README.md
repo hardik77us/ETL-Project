@@ -33,13 +33,13 @@ Inorder to make the data that we retrieved useful, we needed to look through all
 
 ### Load
 
-We used SQL as our database and created the tables and primary key(census tract) for the data. We used SQL because we were dealing with structured datda with a consistent schema. Also because we were using cosistent data. At present we didnt use any complex queries, however we could use SQL for it if required later. We were also not expecting any scalability issues. The tables we created are CensusData, Tract_lat_lon and Data. The censusData had census tract (our primary key), State, County, POP2010 - population count from 2010, OHU2010 - Number of Housing units for 2010, MedianFamilyIncome - Median family income, PovertyRate - Poverty rate. The Tract_lat_lon has the census tract, latitude and longitude. The data table has census tract, state and county. 
+We used SQL as our database and created the tables and primary key(census tract) for the data. We used SQL because we were dealing with structured datda with a consistent schema. Also because we were using cosistent data. At present we didnt use any complex queries, however we could use SQL for it if required later. We were also not expecting any scalability issues. The tables we created are **CensusData** , **Tract_lat_lon** and **Data**. The censusData had census tract (our primary key), State, County, POP2010 - population count from 2010, OHU2010 - Number of Housing units for 2010, MedianFamilyIncome - Median family income, PovertyRate - Poverty rate. The Tract_lat_lon has the census tract, latitude and longitude. The data table has census tract, state and county. 
 
 The following is an image of the schema we used:
 
 ![](https://github.com/hardik77us/ETL-Project/blob/main/Resources/schema.png)
 
-We used flask to build a route to execute a query to our database and return results. We had an index page, number of people per household, Rate of vehicle ownership and location / name of dealership. 
+We used flask to build a route to execute a query to our database and return results. We had an **index(Welcome) page**, **population**, the **vehicle rate**, **name of dealership**. The Welcome page shows you the list of the links to the other pages. The population shows the total population and the total housing units. The Vehicle rate shows the total housing units and the units without vehicles. The dealership page shows the list of the dealerships and the corresponding latitude and longitude. 
 
 ### Use for above analysis:
 
